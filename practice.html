@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Clone Practice</title>
+</head>
+
+<body>
+    <!-- Header Section start -->
+    <div class="header">
+        <div class="header-left">
+            <i class="material-icons">menu</i>
+            <img src="images/logo.png" title="YouTube Home" alt="">
+            <span id="country-code" title="YouTube Home" class="style-scope ytd-topbar-logo-renderer">
+                PK
+            </span>
+        </div>
+        <div class="header-search">
+            <form action="">
+                <input type="text" placeholder="Search" autocapitalize="none" autocomplete="off" autocorrect="off"
+                    name="search_query" tabindex="0" spellcheck="false" aria-label="Search" role="combobox"
+                    aria-haspopup="false" aria-autocomplete="list" dir="ltr" style="outline: none;">
+                <button><i class="material-icons">search</i></button>
+            </form>
+        </div>
+        <div class="header-right">
+            <i class="material-icons">video_call</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">account_circle</i>
+        </div>
+    </div>
+    <!-- Header Section End  -->
+
+    <div class="mainBody">
+        <div class="sidebar">
+            <div class="categories">
+                <div class="category">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </div>
+            </div>
+            <hr>
+            <div class="categories">
+                <div class="category">
+                    <i class="material-icons">video_library</i>
+                    <span>Library</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">slideshow</i>
+                    <span>Your Videos</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </div>
+            </div>
+            <hr>
+            <div class="categories">
+                <div class="category">
+                    <i class="material-icons">settings</i>
+                    <span>Settings</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">outlined_flag</i>
+                    <span>Report History</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">help_outline</i>
+                    <span>Help</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">feedback</i>
+                    <span>Send Feedback</span>
+                </div>
+            </div>
+            <hr>
+            <!-- Channels sections start  -->
+            <div class="Channels">
+                <h4>Subscriptions</h4>
+                <div class="channel">
+                    <img src="images/profile_4.jpg" width="50px" alt="">
+                    <span>FR TECH</span>
+                </div>
+                <div class="channel">
+                    <img src="images/profile_1.jpg" width="50px" alt="">
+                    <span>FR TECH</span>
+                </div>
+                <div class="channel">
+                    <img src="images/profile_2.jpg" width="50px" alt="">
+                    <span>FR TECH</span>
+                </div>
+                <div class="channel">
+                    <img src="images/profile_3.jpg" width="50px" alt="">
+                    <span>FR TECH</span>
+                </div>
+                <div class="channel">
+                    <img src="images/profile_5.jpg" width="50px" alt="">
+                    <span>FR TECH</span>
+                </div>
+                <div class="channel">
+                    <img src="images/profile_1.jpg" width="50px" alt="">
+                    <span>FR TECH</span>
+                </div>
+                <div class="channel">
+                    <img src="img/show more.PNG" width="50px" alt="">
+                    <span>Show 10 more</span>
+                </div>
+            </div>
+            <!-- Channels sections end -->
+            <hr>
+            <div id="footer" class="style-scope ytd-guide-renderer">
+                <div id="guide-links-primary" class="style-scope ytd-guide-renderer">
+                    <a slot="guide-links-primary" href="https://www.youtube.com/about/"
+                        >About</a><a slot="guide-links-primary"
+                        href="https://www.youtube.com/about/press/" >Press</a><a
+                        slot="guide-links-primary" href="https://www.youtube.com/about/copyright/"
+                        >Copyright</a><a slot="guide-links-primary" href="/t/contact_us/"
+                        >Contact us</a><a slot="guide-links-primary"
+                        href="https://www.youtube.com/creators/" >Creator</a><a
+                        slot="guide-links-primary" href="https://www.youtube.com/ads/"
+                        >Advertise</a><a slot="guide-links-primary"
+                        href="https://developers.google.com/youtube" >Developers</a>
+                </div>
+                <div id="guide-links-secondary" class="style-scope ytd-guide-renderer">
+                    <a slot="guide-links-secondary" href="/t/terms" >Terms</a><a
+                        slot="guide-links-secondary" href="/t/privacy" >Privacy</a><a
+                        slot="guide-links-secondary" href="https://www.youtube.com/about/policies/"
+                        >Policy &amp; Safety</a><a slot="guide-links-secondary"
+                        href="https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&amp;utm_source=ythp&amp;utm_medium=LeftNav&amp;utm_content=txt&amp;u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+                        >How YouTube works</a><a slot="guide-links-secondary" href="/new"
+                        >Test new features</a>
+                </div>
+
+                <div id="copyright" slot="copyright">
+                    <div dir="ltr" style="display:inline">© 2023 Google LLC</div>
+                    <div dir="ltr" style="display:inline"> YouTube, a Google company</div>
+                </div>
+            </div>
+        </div>
+        <!-- Siderbar mainbody end  -->
+        <div class="filters">
+            <button class="filter-option active">ALL</button>
+            <button class="filter-option">CSS</button>
+            <button class="filter-option">Web development</button>
+            <button class="filter-option">Javascript</button>
+            <button class="filter-option">PHP Laravel</button>
+            <button class="filter-option">songs</button>
+            <button class="filter-option">Lo-fi</button>
+            <button class="filter-option">Recently upload</button>
+            <button class="filter-option">watched</button>
+            <!-- <a href="#" class="previous round">&#8249;</a> -->
+            <!-- <a href="#" class="next round">&#8250;</a> -->
+        </div>
+
+        <div class="videos">
+            <!-- <h1>Recommended</h1> -->
+            <div class="video_container">
+                <!-- single video section  -->
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/video_thumb_1.jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_4.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>Top Five Videos To Learn In 2023 | Best Learning Channel </h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/video_thumb_8.jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_4.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>How To Become a Freelancer | Freelancing Tutorial </h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/images (2).jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_1.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>War (Hritik Roshan , Tiger Shroff ) | Bollywood Block-buster Movie </h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/video_thumb_3.jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_1.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>Money Hiest| Netflix Series</h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/images (4).jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_1.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3> PATHAAN SRK, John Abraham | Bollywood Cinema Movies </h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/images (3).jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_1.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>K.G.F 2 | South Indian Movie </h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/images (3).jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_1.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>K.G.F 2 | South Indian Movie </h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/images (3).jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_1.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>K.G.F 2 | South Indian Movie </h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/images.jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_1.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>30 MOVIES TO WATCH BEFORE YOU DIE | Netflix Series </h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/images (3).jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_1.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>K.G.F 2 | South Indian Movie </h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/images (1).jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_1.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>Beast | South Indian Movie </h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="images/download.jpg" width="300px" alt="">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="images/profile_1.jpg" width="50px" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>TOP 10 BEST MOVIES | Netflix Series </h3>
+                            <a href="#">FR TECH</a>
+                            <span>10M views - 7 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video section end -->
+
+</body>
+
+</html>
